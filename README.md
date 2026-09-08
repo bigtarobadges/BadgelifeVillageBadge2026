@@ -23,11 +23,10 @@ The code is organized as one file per piece of hardware:
 | File | What it does |
 |---|---|
 | `BadgeStub/pins.h` | Every GPIO pin number used, in one place |
-| `BadgeStub/BadgeStub.ino` | `setup()` / `loop()`, and the LED code |
+| `BadgeStub/BadgeStub.ino` | `setup()` / `loop()`, and the LED/Button code |
 | `BadgeStub/vibration.h/.cpp` | Vibration motor driver |
 | `BadgeStub/battery.h/.cpp` | Battery voltage reading |
 | `BadgeStub/touch.h/.cpp` | Capacitive touchpad reading |
-| `BadgeStub/BadgeStub.ino` | (also) Button setup and the shared button callback |
 
 Read them in that order if you are new to the codebase - each file has
 comments explaining not just what the code does, but why it is written
