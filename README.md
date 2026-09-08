@@ -28,7 +28,7 @@ The code is organized as one file per piece of hardware:
 | `BadgeStub/battery.h/.cpp` | Battery voltage reading |
 | `BadgeStub/touch.h/.cpp` | Capacitive touchpad reading |
 
-Read them in that order if you are new to the codebase - each file has
+Read them in that order if you are new to the codebase.  Each file has
 comments explaining not just what the code does, but why it is written
 that way.
 
@@ -37,7 +37,7 @@ that way.
 - The Badgelife Village Badge (an RP2354 microcontroller with 2MB of
   onboard flash; see the flash size note in `platformio.ini` if you are
   targeting a different RP2350/RP2354 board)
-- 8 WS2812/NeoPixel style RGB LEDs on one data pin
+- 8 WS2812b/NeoPixel style RGB LEDs on one data pin
 - A DC vibration motor driven by a digital output pin
 - A battery voltage divider gated by a digital output pin, feeding an ADC
   input pin
