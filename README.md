@@ -1,5 +1,7 @@
 # Badgelife Village Badge Example Firmware
 
+![Front of the Badgelife Village Badge](badge-rotate.gif)
+
 A small, (maybe overly) commented example sketch for the
 [Badgelife Village Badge](https://badge.life/badges/dc34/villagebadge/)
 (DC34, 2026). It is meant to be a starting point, where you can
