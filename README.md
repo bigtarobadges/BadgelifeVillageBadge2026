@@ -215,3 +215,6 @@ With that, I hope to see some cool code and firmware made for this device.
 Have fun and happy hacking!
 
 -Jeff "BigTaro"
+
+## License
+This firmware is provided as a starting point for hacking on the Badgelife Village badge hardware. Use it however you like!
